@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import HooksExample from './HooksExample';
+import UseEffectExample from './UseEffectExample';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <HooksExample />
+        <UseEffectExample />
       </div>
     );
   }
