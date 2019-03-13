@@ -4,6 +4,7 @@ const UseEffectExample = () => {
   const [count, setCount] = useState(0);
 
   // Effect Hook lets you perform side effects in function components
+  // gets called after render
   useEffect(() => {
     console.log('use Effect is kinda like componentDidMount');
 
